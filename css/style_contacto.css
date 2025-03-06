@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /* Define variables CSS para los colores y tamaños de texto */
+    --color_text-primary: #8B7F3A;
+    /* Un tono vino oscuro para texto primario */
+    --color_text-secundary: #686A68;
+    /* Un tono de fucsia oscuro para texto secundario */
+    --color_text-tertiary: #DBA218;
+    /* Un tono rosado más claro para texto terciario */
+    --main_color-primary: #0DC4F8;
+    /* Rosado brillante como color principal */
+    --main_color-secundary: #15332D;
+    /* Un tono rosado pastel como color secundario */
+    --background-color: #041A25;
+    /* Fondo en un tono rosa muy suave */
+    --lowText_font_size: 16px;
+    /* Tamaño de fuente para texto pequeño */
+    --text_size_title: 40px;
+    /* Tamaño de fuente para títulos */
+    --text_title_card: 24px;
+    /* Tamaño de fuente para títulos de tarjeta */
+    --text_title_cardv2: 20px;
+    /* Tamaño de fuente para subtítulos de tarjeta */
+    --text_paragraph: 16px;
+    /* Tamaño de fuente para párrafos */
+    --box_shadow-primary: #0F2746(204, 0, 102, 0.5);
+    /* Un tono fucsia oscuro con opacidad para un efecto suave */
+
+    /* Sombra principal */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--background-color);
+    position: fixed;
+    
+}
+
+.contenedor_header {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu nav {
+    margin: 0px 20px;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav ul li {
+    list-style: none;
+    margin: 20px 16px;
+}
+
+.menu nav ul li a {
+    color: var(--color_text-secundary);
+    font-size: var(--lowText_font_size);
+    position: relative;
+}
+
+.menu nav ul li a:hover {
+    color: var(--color_text-primary);
+}
+
+.menu .redes_sociales {
+    margin: 0px 10px;
+}
+
+.menu .redes_sociales a {
+    margin: 0px 4px;
+}
+
+.menu .redes_sociales img {
+    width: 20px;
+    height: 20px;
+}
+
+main{
+    background-color: #15332D;
+}
+
+
+.Formulario_contact {
+    
+    
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    min-height: 500px;
+    /* Asegura que ocupe toda la altura de la pantalla */
+    margin: auto;
+    align-items: center;
+    max-width: 1200px;
+    padding-top: 200px;
+    padding-bottom: 226px;
+    
+
+}
+
+
+.Title_formulario {
+    text-align: center;
+    /* Centra horizontalmente el título */
+    margin-bottom: 20px;
+    /* Espacio entre el título y el formulario */
+    margin-right: 50px;
+}
+
+.formflex {
+    display: flex;
+}
+
+.formflex img {
+    padding-right: 400px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+form {
+    background: var(--color_text-primary);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card__proyect {
+    background-color: #8E005B;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.derechos_reservados{
+    font-size: 15px;
+    margin-top: 30px;
+    color: var(--background-color);
+    text-align: center;
+    max-height: 200px;
+    
+}
+
+
+
+
+
